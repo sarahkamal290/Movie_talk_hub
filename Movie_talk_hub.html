@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Talk Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🎬 Movie Talk Hub</h1>
+        <div class="search-container">
+            <input type="text" id="movie-search" placeholder="Search for a movie...">
+            <button onclick="searchMovie()">🔍 Search</button>
+        </div>
+    </header>
+    
+    <main>
+        <section id="movie-details">
+            <h2>🎥 Movie Details</h2>
+            <div id="movie-info" class="card"></div>
+        </section>
+        
+        <section id="twitter-feed">
+            <h2>💬 Live Twitter Reactions</h2>
+            <div id="tweets" class="tweet-container"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Movie Talk Hub. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
